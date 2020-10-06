@@ -70,6 +70,11 @@
 		align-items: center;
 	}
 
+	.nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.services--content--block1,
 	.services--content--block2,
 	.services--content--block3 {
@@ -88,8 +93,20 @@
 		font-size: 1.5em;
 	}
 
+	.gallery--element--heading {
+		margin: 0;
+	}
+
+	.gallery--element--background {
+		font-size: 0.8em;
+	}
+
 	.services--heading--paragraph {
 		font-size: 1em;
+	}
+
+	.gallery--element--button {
+		display: none;
 	}
 }
 
